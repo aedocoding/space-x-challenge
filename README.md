@@ -41,7 +41,7 @@ Below, you'll find information about what you need to get set up, how to run the
 - Clone [repository](https://bitbucket.org/unitymedical/alpha-medical-mobile/src/dev/) (dev) to your local machine
 - CD into top level if not already in it and run `yarn install`
 - Make sure you have XCode installed with an iPhone simulator set up on a Mac or Android Studio installed with an Android simulator set up.
-- CD into top level if not already in it and run `expo start --ios` or `expo start --android`. The app will build itself locally onto your simulator along with any native code modules (e.g. Recurly-iOS).
+- CD into top level if not already in it and run `expo start --ios` or `expo start --android`.
 
 ### Running on a mobile device via Expo Go
 
