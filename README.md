@@ -38,14 +38,14 @@ Below, you'll find information about what you need to get set up, how to run the
 
 ### Running on a simulator
 
-- Clone [repository](https://bitbucket.org/unitymedical/alpha-medical-mobile/src/dev/) (dev) to your local machine
+- Clone [repository](https://github.com/aedocoding/space-x-challenge) to your local machine
 - CD into top level if not already in it and run `yarn install`
 - Make sure you have XCode installed with an iPhone simulator set up on a Mac or Android Studio installed with an Android simulator set up.
 - CD into top level if not already in it and run `expo start --ios` or `expo start --android`.
 
 ### Running on a mobile device via Expo Go
 
-- Clone [repository](https://bitbucket.org/unitymedical/alpha-medical-mobile/src/dev/) (dev) to your local machine
+- Clone [repository](https://github.com/aedocoding/space-x-challenge) to your local machine
 - CD into top level and run `yarn install`
 - Run `expo start` and follow instructions to build the app on your mobile device (e.g. scan the QR code). Ensure you have Expo Go installed on your device. You may need to run `expo start --tunnel` if a connnection can't be opened via LAN.
 
