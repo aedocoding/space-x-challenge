@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LaunchDetails /> renders correctly 1`] = `
+<Modal
+  hardwareAccelerated={false}
+  visible={false}
+>
+  <Image
+    resizeMode="contain"
+    source={
+      Object {
+        "uri": "http://www.nasa.gov/sites/default/files/thumbnails/image/42374725534_a653d1b7cb_k.jpg",
+      }
+    }
+    style={
+      Object {
+        "height": 400,
+        "width": "100%",
+      }
+    }
+  />
+  <Text>
+    Mock Launch
+  </Text>
+  <Text>
+    Mock Details
+  </Text>
+  <View
+    accessibilityRole="button"
+    accessibilityState={Object {}}
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Close
+      </Text>
+    </View>
+  </View>
+</Modal>
+`;
