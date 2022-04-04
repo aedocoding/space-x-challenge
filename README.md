@@ -10,6 +10,7 @@
     - [Prerequisites](#prerequisites)
     - [Running on a simulator](#running-on-a-simulator)
     - [Running on your mobile device](#running-on-your-mobile-device)
+  - [Tests](#tests)
 
 ## About
 This project was created with [create-react-native-app](https://github.com/expo/create-react-native-app) with the typescript template.
@@ -47,3 +48,6 @@ Below, you'll find information about what you need to get set up, how to run the
 - Clone [repository](https://bitbucket.org/unitymedical/alpha-medical-mobile/src/dev/) (dev) to your local machine
 - CD into top level and run `yarn install`
 - Run `expo start` and follow instructions to build the app on your mobile device (e.g. scan the QR code). Ensure you have Expo Go installed on your device. You may need to run `expo start --tunnel` if a connnection can't be opened via LAN.
+
+## Tests
+- The test suite can be ran by running `yarn test` from the top level of the repository
